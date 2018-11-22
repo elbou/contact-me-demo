@@ -1,0 +1,36 @@
+{
+  "_id": "page.contact-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.contact-details--text.input_auto__1",
+      "_type": "text",
+      "hint": "E.g. Mr Elliott Bouher",
+      "label": "Name",
+      "name": "input_auto__1"
+    },
+    {
+      "_id": "page.contact-details--radios.input_auto__2",
+      "_type": "radios",
+      "hint": "Where are you from",
+      "items": [
+        {
+          "_id": "page.contact-details--radios.input_auto__2--radio.cd",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.contact-details--radios.input_auto__2--radio.cd--text.input_auto__3",
+            "_type": "text",
+            "label": "Team Name",
+            "name": "input_auto__3"
+          },
+          "label": "Central Digital",
+          "value": "cd"
+        }
+      ],
+      "legend": "Department",
+      "name": "input_auto__2"
+    }
+  ],
+  "heading": "Contact Details",
+  "url": "contact-details"
+}
